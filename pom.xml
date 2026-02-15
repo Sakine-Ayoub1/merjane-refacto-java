@@ -257,7 +257,7 @@
 				<artifactId>liquibase-maven-plugin</artifactId>
 				<version>${org.liquibase.version}</version>
 				<configuration>
-					<changeLogFile>src/main/resources/db/changelog-master.yaml</changeLogFile>
+					<changeLogFile>src/main/resources/db/changelog-master.xml</changeLogFile>
 					<url>jdbc:postgresql://${liquibase.config.dbhost}:5432/db</url>
 					<username>user</username>
 					<password>password</password>
